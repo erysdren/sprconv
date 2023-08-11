@@ -84,6 +84,21 @@ json_from_sprite(sprite_filename)
 
 - PIL (`python -m pip install Pillow`)
 
+## Suggested installation
+
+```sh
+$ python3 -m venv .venv
+
+# Powershell on Windows
+$ .venv/Scripts/Activate.ps1
+# Linux
+$ . .venv/bin/activate
+
+$ pip install -r requirements.txt
+
+$ python source/sprconv
+```
+
 ## Thirdparty
 
 - [Kaitai Struct](https://kaitai.io/)
